@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: order
+opentracing:
+  jaeger:
+    udp-sender:
+      host: jaeger-agent
+      port: 6831
